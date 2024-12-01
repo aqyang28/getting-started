@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E516B54C2CFC2B0500FD9943 /* AddressLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516B54B2CFC2B0500FD9943 /* AddressLabel.swift */; };
 		E59B6A432CE7DCD600A31509 /* getting_startedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59B6A422CE7DCD600A31509 /* getting_startedApp.swift */; };
 		E59B6A452CE7DCD600A31509 /* ChatPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59B6A442CE7DCD600A31509 /* ChatPrototype.swift */; };
 		E59B6A472CE7DCD700A31509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59B6A462CE7DCD700A31509 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E516B54B2CFC2B0500FD9943 /* AddressLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressLabel.swift; sourceTree = "<group>"; };
 		E59B6A3F2CE7DCD600A31509 /* getting started.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "getting started.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59B6A422CE7DCD600A31509 /* getting_startedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getting_startedApp.swift; sourceTree = "<group>"; };
 		E59B6A442CE7DCD600A31509 /* ChatPrototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPrototype.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E516B54A2CFC2AF700FD9943 /* AddressLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E516B54B2CFC2B0500FD9943 /* AddressLabel.swift */,
+			);
+			path = AddressLabel;
+			sourceTree = "<group>";
+		};
 		E59B6A362CE7DCD600A31509 = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +221,7 @@
 		E5D73F462CE84B960065681A /* lists and text fields */ = {
 			isa = PBXGroup;
 			children = (
+				E516B54A2CFC2AF700FD9943 /* AddressLabel */,
 				E5D73F472CE84BC60065681A /* Pick-a-Pal */,
 			);
 			path = "lists and text fields";
@@ -309,6 +320,7 @@
 				E59B6A572CE7EF3800A31509 /* AboutMe.swift in Sources */,
 				E59B6A512CE7E17500A31509 /* MyselfInSixWords.swift in Sources */,
 				E5D73F402CE843270065681A /* DiceContentView.swift in Sources */,
+				E516B54C2CFC2B0500FD9943 /* AddressLabel.swift in Sources */,
 				E59B6A432CE7DCD600A31509 /* getting_startedApp.swift in Sources */,
 				E59B6A552CE7E35B00A31509 /* WeatherForecast.swift in Sources */,
 				E5D73F362CE83BDB0065681A /* PageTwo.swift in Sources */,
